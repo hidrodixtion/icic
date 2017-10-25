@@ -1,7 +1,7 @@
 # Icic
 [![Gem Version](https://img.shields.io/gem/v/icic.svg)](http://rubygems.org/gems/icic)
 
-`icic` is a tool to simplify the generation of iOS and Android image asset from an image file. For Android, this tool will generate & classify image based on the dpi. For iOS this tool will create 1x, 2x, 3x and also `filename.imageset` metadata file.
+`icic` is a tool to simplify the generation of iOS and Android image asset from an image file. For Android, this tool will generate & classify image based on the dpi. For iOS this tool will create 1x, 2x, 3x and also `Contents.json` metadata file inside `filename.imageset` folder.
 
 ## Why
 
