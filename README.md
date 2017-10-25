@@ -1,11 +1,11 @@
 # Icic
 [![Gem Version](https://img.shields.io/gem/v/icic.svg)](http://rubygems.org/gems/icic)
 
-`icic` is a tool to simplify the generation of iOS and Android image asset from an image file. For Android, this tool will generate & classify image based on the dpi. For iOS this tool will create 1x, 2x, 3x and also `Contents.json` metadata file inside `filename.imageset` folder.
+`icic` is a tool to simplify the generation of iOS and Android **ICON** image asset from an image file. For Android, this tool will generate & classify icon image based on the dpi. For iOS this tool will create 1x, 2x, 3x and also `Contents.json` metadata file inside `filename.imageset` folder.
 
 ## Why
 
-So many helper tools out there to automate the generation of image asset, but most of them are desktop base which need many interaction until the final asset is created and also the app is not free. The other tool is webapp like [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html) and like the desktop app, still need many interaction until the final asset is created and the final asset will be in zip format that user need to unzip it first before using. What I want is minimum interaction for image asset generation, that's why this CLI app was born.
+So many helper tools out there to automate the generation of icon image asset, but most of them are desktop base which need many interaction until the final asset is created and also the app is not free. The other tool is webapp like [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html) and like the desktop app, still need many interaction until the final asset is created and the final asset will be in zip format that user need to unzip it first before using. What I want is minimum interaction for image asset generation, that's why this CLI app was born.
 
 ## Requirements
 
