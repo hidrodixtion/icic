@@ -1,38 +1,42 @@
 # Icic
+[![Gem Version](https://img.shields.io/gem/v/icic.svg)](http://rubygems.org/gems/icic)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/icic`. To experiment with that code, run `bin/console` for an interactive prompt.
+`icic` is a tool to simplify the generation of iOS and Android image asset from an image file. For Android, this tool will generate & classify image based on the dpi. For iOS this tool will create 1x, 2x, 3x and also `filename.imageset` metadata file.
 
-TODO: Delete this and the text above, and describe your gem
+## Requirements
+
+This tool rely on ImageMagick or GraphicsMagick so make sure this tools already installed. You can check if you have it installed by running
+
+```
+$ convert -version
+Version: ImageMagick 7.0.7-7 Q16 x86_64 2017-10-08 http://www.imagemagick.org
+Copyright: © 1999-2017 ImageMagick Studio LLC
+License: http://www.imagemagick.org/script/license.php
+Features: Cipher DPC HDRI Modules
+Delegates (built-in): bzlib freetype jng jpeg ltdl lzma png tiff xml zlib
+```
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install this tool using `rubygem`
 
-```ruby
-gem 'icic'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install icic
+    gem install icic
 
 ## Usage
 
-TODO: Write usage instructions here
+Run on terminal
+	
+	icic
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Then it will prompt for
+- The original image file (that will be converted)
+- The platform (iOS or Android)
+- The name of generated file
+- The output folder
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/icic. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/hidrodixtion/icic. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -40,4 +44,4 @@ The gem is available as open source under the terms of the [MIT License](http://
 
 ## Code of Conduct
 
-Everyone interacting in the Icic project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/icic/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Icic project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/hidrodixtion/icic/blob/master/CODE_OF_CONDUCT.md).
