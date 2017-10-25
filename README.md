@@ -38,6 +38,8 @@ Then it will prompt for
 - The name of generated file
 - The output folder
 
+![example usage](https://media.giphy.com/media/l378khz1LH2rXtoly/giphy.gif)
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/hidrodixtion/icic. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
